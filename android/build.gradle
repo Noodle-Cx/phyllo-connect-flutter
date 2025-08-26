@@ -38,6 +38,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
+    namespace = "com.phyllo.connect.phyllo_connect"
     compileSdkVersion 29
 
     compileOptions {
